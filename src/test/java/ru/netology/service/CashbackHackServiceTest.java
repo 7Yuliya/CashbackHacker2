@@ -27,8 +27,8 @@ public class CashbackHackServiceTest {
     void calculateCashback800() {
 
         CashbackHackService service = new CashbackHackService();
-        int amount = 800;
-        int actual = 200;
+        int amount = 700;
+        int actual = 300;
         int expected = service.remain(amount);
 
 
